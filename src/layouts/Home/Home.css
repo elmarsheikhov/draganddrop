@@ -1,0 +1,93 @@
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  margin: 10px !important;
+  border-radius: 6px;
+  background-color: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #748ffc;
+  border-radius: 5px;
+}
+
+.main {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+h1 {
+  margin: 20px auto;
+  width: max-content;
+  background-color: #91a7ff;
+  color: #fff;
+  border-radius: 14px;
+  padding: 8px 24px;
+}
+.container {
+  display: flex;
+  width: max-content;
+  background-color: #91a7ff;
+  margin: 40px auto;
+  border-radius: 12px;
+  min-height: 620px;
+  max-height: 620px;
+}
+.left_block {
+  min-width: 200px;
+  background-color: #c5f6fa;
+  margin: 24px;
+  padding: 24px;
+  border-radius: 12px;
+  /* max-height: 500px; */
+  overflow-y: scroll;
+}
+.right_block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.clubs div {
+  background-color: #99e9f2;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: move;
+}
+.clubs span {
+  display: inline-block;
+  background-color: #748ffc;
+  color: #fff;
+  margin-bottom: 12px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.groups {
+  min-width: 200px;
+  background-color: #c5f6fa;
+  margin: 24px;
+  padding: 24px;
+  border-radius: 12px;
+  min-height: 210px;
+}
+.groups span {
+  display: inline-block;
+  background-color: #748ffc;
+  color: #fff;
+  margin-bottom: 12px;
+  padding: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.groups div {
+  background-color: #99e9f2;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.elmar {
+  width: 300px;
+  background-color: cyan;
+}
